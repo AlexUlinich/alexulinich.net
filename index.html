@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Ulinich</title>
+  <meta name="description" content="Writing by Alex Ulinich.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --paper: #000;
+      --ink: #fcfcfc;
+      --ink-soft: #e4e4e4;
+      --muted: #a3a3a3;
+      color-scheme: dark;
+    }
+
+    ::selection { background: var(--ink); color: var(--paper); }
+
+    html { background: var(--paper); }
+
+    body {
+      max-width: 680px;
+      margin-left: clamp(0px, calc(10vw - 48px), 110px);
+      padding: clamp(28px, 8vh, 72px) 20px;
+      background: var(--paper);
+      color: var(--ink-soft);
+      font-family: "Times New Roman", Times, serif;
+      font-size: 18px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1 { font-size: 30px; font-weight: bold; line-height: 1.2; color: var(--ink); }
+
+    .contact { margin-top: 8px; font-size: 16px; line-height: 1.5; }
+    .obf { color: var(--muted); }
+
+    /* The hand-drawn rule, traced from the original sketch */
+    .rule {
+      display: block;
+      width: 100%;
+      aspect-ratio: 303.5 / 4.12;
+      min-height: 7px;
+      margin: 16px 0 22px;
+      fill: var(--ink);
+    }
+
+    .posts { list-style: none; color: var(--muted); }
+    .posts li { margin-bottom: 0.4em; }
+
+    a { color: var(--ink); text-decoration: none; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    a:focus-visible { outline: 1px dashed var(--ink); outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alex Ulinich</h1>
+    <div class="contact">
+      <p>alex <span class="obf">[dot]</span> ulinich <span class="obf">[at]</span> gmail <span class="obf">[dot]</span> com</p>
+      <p>Signal: alex123 <span class="obf">[dot]</span> 45</p>
+    </div>
+  </header>
+
+  <svg class="rule" xmlns="http://www.w3.org/2000/svg" viewBox="21.70 36.18 303.50 4.12" preserveAspectRatio="none" aria-hidden="true"><path d="M22.40 38.73 L25.41 38.73 L28.41 38.72 L31.41 38.70 L34.41 38.67 L37.41 38.65 L40.41 38.62 L43.41 38.55 L46.41 38.50 L49.41 38.44 L52.41 38.39 L55.41 38.33 L58.41 38.29 L61.41 38.26 L64.41 38.23 L67.41 38.21 L70.41 38.20 L73.40 38.19 L76.40 38.18 L79.40 38.17 L82.40 38.17 L85.40 38.16 L88.40 38.15 L91.40 38.14 L94.40 38.13 L97.41 38.11 L100.41 38.09 L103.41 38.07 L106.41 38.04 L109.41 38.00 L112.41 37.97 L115.41 37.94 L118.41 37.91 L121.41 37.87 L124.41 37.84 L127.41 37.82 L130.41 37.79 L133.41 37.77 L136.40 37.76 L139.40 37.74 L142.40 37.73 L145.40 37.72 L148.40 37.71 L151.40 37.71 L154.40 37.70 L157.40 37.70 L160.40 37.70 L163.40 37.69 L166.40 37.69 L172.40 37.69 L175.40 37.69 L178.40 37.70 L184.40 37.70 L187.40 37.72 L190.40 37.73 L193.39 37.75 L196.39 37.77 L199.39 37.79 L202.39 37.82 L205.39 37.85 L208.39 37.88 L211.39 37.93 L214.39 37.98 L217.39 38.03 L220.39 38.07 L223.39 38.12 L226.39 38.17 L229.39 38.21 L232.39 38.25 L235.39 38.28 L238.39 38.32 L241.39 38.35 L244.39 38.38 L247.39 38.41 L250.39 38.44 L253.39 38.46 L256.39 38.48 L259.39 38.50 L262.39 38.52 L265.39 38.55 L268.39 38.57 L271.39 38.60 L274.39 38.63 L277.39 38.66 L280.39 38.68 L283.39 38.70 L286.39 38.74 L289.39 38.77 L292.39 38.79 L295.39 38.81 L298.39 38.83 L301.39 38.85 L304.40 38.87 L307.40 38.87 L310.40 38.87 L313.40 38.87 L316.40 38.86 L319.40 38.85 L322.40 38.81 L322.40 38.61 L319.40 38.54 L316.40 38.49 L313.40 38.45 L310.40 38.41 L307.40 38.37 L304.40 38.34 L301.41 38.29 L298.41 38.24 L295.41 38.19 L292.41 38.14 L289.41 38.09 L286.41 38.04 L283.41 37.98 L280.41 37.93 L277.41 37.89 L274.41 37.84 L271.41 37.80 L268.41 37.77 L265.41 37.75 L262.41 37.72 L259.41 37.70 L256.41 37.68 L253.41 37.66 L250.41 37.64 L247.41 37.61 L244.41 37.58 L241.41 37.55 L238.41 37.52 L235.41 37.48 L232.41 37.45 L229.41 37.41 L226.41 37.37 L223.41 37.32 L220.41 37.27 L217.41 37.23 L214.41 37.18 L211.41 37.13 L208.41 37.08 L205.41 37.05 L202.41 37.02 L199.41 36.99 L196.41 36.97 L193.41 36.95 L190.40 36.93 L187.40 36.92 L184.40 36.90 L178.40 36.90 L175.40 36.89 L172.40 36.89 L166.40 36.89 L163.40 36.89 L160.40 36.90 L157.40 36.90 L154.40 36.90 L151.40 36.91 L148.40 36.91 L145.40 36.92 L142.40 36.93 L139.40 36.94 L136.40 36.96 L133.39 36.97 L130.39 36.99 L127.39 37.02 L124.39 37.04 L121.39 37.07 L118.39 37.11 L115.39 37.14 L112.39 37.17 L109.39 37.20 L106.39 37.24 L103.39 37.27 L100.39 37.29 L97.39 37.31 L94.40 37.33 L91.40 37.34 L88.40 37.35 L85.40 37.36 L82.40 37.37 L79.40 37.37 L76.40 37.38 L73.40 37.39 L70.39 37.41 L67.39 37.44 L64.39 37.49 L61.39 37.53 L58.39 37.59 L55.39 37.66 L52.39 37.74 L49.39 37.82 L46.39 37.91 L43.39 37.99 L40.39 38.09 L37.39 38.15 L34.39 38.21 L31.39 38.28 L28.39 38.35 L25.39 38.42 L22.40 38.53 Z"/></svg>
+
+  <main>
+    <ul class="posts">
+      <!-- One line per post, newest first: <li><a href="posts/slug.html">[title]</a></li> -->
+      <li>[coming soon]</li>
+    </ul>
+  </main>
+</body>
+</html>
